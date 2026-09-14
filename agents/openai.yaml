@@ -1,0 +1,4 @@
+interface:
+  display_name: "Static Pages + Yandex Deploy"
+  short_description: "Deploy Pages with a Yandex backend safely"
+  default_prompt: "Use $static-pages-yandex-deploy for a static Pages and Yandex Cloud deployment."
