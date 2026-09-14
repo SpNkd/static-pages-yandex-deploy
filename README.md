@@ -1,14 +1,16 @@
 # Static Pages + Yandex Deploy
 
-Reusable Codex skill for deploying static web apps to GitHub Pages and GitVerse Pages with a Yandex Cloud API backend.
+Этот skill помогает бесплатно выложить веб-проект, состоящий из статической страницы и backend-части.
 
-## Что умеет
+Статический frontend публикуется на GitHub Pages и/или GitVerse Pages, а backend работает в Yandex Cloud (API Gateway + Cloud Functions и нужное хранилище). В результате получается доступный по ссылке проект без отдельного платного сервера для frontend.
 
-- проверяет сборку и статический output;
-- деплоит GitHub Pages и GitVerse Pages;
-- обновляет Yandex Cloud Function/API без раскрытия секретов;
-- сохраняет release history и описывает rollback;
-- выполняет smoke-проверки после публикации.
+## Что делает skill
+
+- собирает и проверяет статическую страницу;
+- публикует frontend на GitHub Pages и GitVerse Pages;
+- разворачивает или обновляет backend в Yandex Cloud;
+- проверяет, что опубликованный frontend действительно обращается к API;
+- сохраняет историю релизов и подсказывает, как откатиться.
 
 ## Установка
 
